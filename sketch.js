@@ -10,7 +10,7 @@ var dustbinObj, paperObject,groundObject
 
 
 function setup() {
-	createCanvas(1600, 745);
+	createCanvas(1200, 745);
 	rectMode(CENTER);
 	
 
@@ -18,8 +18,8 @@ function setup() {
     stroke("white");
 	engine = Engine.create();
 	world = engine.world;
-	dustbinObj=new dustbin(1200,610);
-	paperObject=new paper(400,550,40)
+	dustbinObj=new dustbin(1000,610);
+	paperObject=new paper(200,550,40)
 	groundObject=new ground(width/2,730,width,20);
 	//Create a Ground
 	
